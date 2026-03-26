@@ -9,8 +9,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 img {
-  max-width: 100%;
+  max-width: 30%;
   height: auto;
+  border-radius: 50% !important;
 }
 
 section {
@@ -63,7 +64,7 @@ ul {
 
 /* NAVBAR */
 .navbar {
-    background-color: ##A9A9A9;
+    background-color: #A9A9A9;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-weight: bold;
