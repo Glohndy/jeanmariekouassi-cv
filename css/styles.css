@@ -58,6 +58,7 @@ ul {
   margin-top: 20px;
   transition: all 0.3s ease-in 0s;
   background: transparent;
+  margin-left: 2em;
 }
 
 .button1:hover {
@@ -138,27 +139,17 @@ font-size: 18px;
   background-color: darkgray;
 }
 
-#skills .reseau {
-  height: 45px;
-  margin: 30px 20px;
-  background-color: darkgray;
-}
+
 
 #skills .progress:last-child {
   margin-bottom: 0;
 }
 
-#skills .reseau:last-child {
-  margin-bottom: 0;
-}
 
 #skills .progress-bar {
   background-color: #00008B;
 }
 
-#skills .reseau-bar {
-  background-color: #00008B;
-}
 
 .progress-bar {
     display: flex;
@@ -172,18 +163,7 @@ font-size: 18px;
     transition: width .6s ease;
 }
 
-.reseau-bar {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    overflow: hidden;
-    color: #fff;
-    text-align: center;
-    white-space: nowrap;
-    background-color: #00008B;
-    transition: width .6s ease;
-    border-radius: 25rem;
-}
+
 
 #skills .progress-bar h5 {
   text-shadow: 1px 1px 1px #000;
@@ -191,11 +171,7 @@ font-size: 18px;
   background-color: darkblue;
 }
 
-#skills .reseau-bar h5 {
-  text-shadow: 1px 1px 1px #000;
-  margin-bottom: 3px;
-  background-color: darkblue;
-}
+
 
 /* Experiences */
 #experience {
