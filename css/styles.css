@@ -166,7 +166,25 @@ font-size: 18px;
     transition: width .6s ease;
 }
 
+.reseau-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #00008B;
+    transition: width .6s ease;
+}
+
 #skills .progress-bar h5 {
+  text-shadow: 1px 1px 1px #000;
+  margin-bottom: 3px;
+  background-color: darkblue;
+}
+
+#skills .reseau-bar h5 {
   text-shadow: 1px 1px 1px #000;
   margin-bottom: 3px;
   background-color: darkblue;
