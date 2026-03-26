@@ -533,8 +533,10 @@ margin-bottom: -142px;
   }
 
   ul.competencess li {
-    margin-bottom: 8px;      /* espace entre les lignes */
-    font-size: 16px;
+    margin-bottom: 30px;      /* espace entre les lignes */
+    font-size: 19px;
+    color: white;
+    text-align: left;
   }
 
 
