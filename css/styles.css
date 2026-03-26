@@ -146,6 +146,10 @@ font-size: 18px;
   margin-bottom: 0;
 }
 
+#skills .reseau:last-child {
+  margin-bottom: 0;
+}
+
 #skills .progress-bar {
   background-color: #00008B;
 }
