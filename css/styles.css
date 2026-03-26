@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, h6 {
 img {
   max-width: 30%;
   height: auto;
-  border-radius: 50% !important;
+  border-radius: 10% !important;
 }
 
 section {
@@ -158,7 +158,7 @@ font-size: 18px;
 
 /* Experiences */
 #experience {
-  background-color: #d82c2e;
+  background-color: #00008B;
 }
 
 #experience .heading h2 {
