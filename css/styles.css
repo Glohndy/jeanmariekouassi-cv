@@ -155,6 +155,7 @@ font-size: 18px;
 #skills .progress-bar h5 {
   text-shadow: 1px 1px 1px #000;
   margin-bottom: 3px;
+  background-color: darkblue;
 }
 
 /* Experiences */
