@@ -527,12 +527,12 @@ margin-bottom: -142px;
 }
 
 
- ul.competences {
+ ul.competencess {
     list-style-type: square; /* puces carrées */
     margin-left: 30px;       /* indentation */
   }
 
-  ul.competences li {
+  ul.competencess li {
     margin-bottom: 8px;      /* espace entre les lignes */
     font-size: 16px;
   }
