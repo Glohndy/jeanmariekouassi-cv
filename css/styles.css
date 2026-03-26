@@ -460,7 +460,7 @@ min-height: calc(10.5em + .75rem + 2px);
 /* suite */
 
 #suite{
-background:#d82c2e;
+background:darkblue;
 margin-bottom: -75px;
 }
 
@@ -510,7 +510,7 @@ margin-bottom: 20px;
 /* map */
 
 #map{
-background:#d82c2e;
+background:darkblue;
 margin-bottom: -142px;
 }
 
