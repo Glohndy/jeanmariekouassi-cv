@@ -30,6 +30,9 @@ section .heading {
 
 section .heading h2 {
   text-transform: uppercase;
+  text-align: left;
+  color: white;
+  margin-bottom: 30px;
 }
 
 ul {
@@ -120,6 +123,8 @@ font-size: 18px;
 #about .heading h3{
   color: white;
   text-decoration: underline;
+  text-align: center;
+  margin-bottom: 75px;
 }
 
 #about p{
@@ -129,11 +134,13 @@ font-size: 18px;
   color: white;
   /*font-style: italic;*/
   font-size: 19px;
+  text-align: justify;
 }
 
 /* Skills  */
 #skills .heading h2 {
   color: #00008B;
+  text-align: center;
 }
 
 
@@ -185,6 +192,7 @@ font-size: 18px;
 
 #experience .heading h2 {
   color: white;
+  text-align: center;
 }
 
 .timeline {
@@ -295,6 +303,7 @@ font-size: 18px;
 #educations .heading h2 {
   color: #00008B;
   margin: 15px 0;
+  text-align: center;
 }
 
 .educations-block {
@@ -335,6 +344,7 @@ font-size: 18px;
 
 #portfolio .heading h2 {
   color: white;
+  text-align: center;
 }
 
 #portfolio img {
@@ -362,6 +372,7 @@ font-size: 18px;
 
 #recommendations .heading h2{
 	color: #00008B;
+  text-align: center;
 }
 
 #myCarousel .carousel-item {
@@ -516,6 +527,10 @@ margin-bottom: -142px;
 }
 
 
+ ul.competencess li {
+    margin-bottom: 8px;      /* espace entre les lignes */
+    font-size: 16px;
+  }
 
 
 
