@@ -130,6 +130,10 @@ font-size: 18px;
   color: #00008B;
 }
 
+#reseau {
+  border-radius: 25rem;
+}
+
 #skills .progress {
   height: 45px;
   margin: 30px 20px;
@@ -180,6 +184,7 @@ font-size: 18px;
     white-space: nowrap;
     background-color: #00008B;
     transition: width .6s ease;
+    border-radius: 25rem;
 }
 
 #skills .progress-bar h5 {
@@ -430,7 +435,7 @@ margin-bottom: -95px;
 }
 
 
-#contact .heading h2{.progress {
+#contact .heading h2.progress {
     display: flex;
     height: 1rem;
     overflow: hidden;
