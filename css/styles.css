@@ -33,7 +33,7 @@ ul {
 .divider {
   width: 100px;
   height: 2px;
-  background-color: #d82c2e;
+  background-color: #00008B;
   margin: 0 auto 20px;
 }
 
@@ -63,7 +63,7 @@ ul {
 
 /* NAVBAR */
 .navbar {
-    background-color: #d82c2e;
+    background-color: ##A9A9A9;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-weight: bold;
@@ -80,7 +80,7 @@ ul {
 .nav-link.active,
 .nav-link:hover {
     background-color: white;
-    color: #d82c2e !important;
+    color: #000000 !important;
 }
 
 .nav-link.active,
@@ -92,7 +92,7 @@ font-size: 18px;
 
 /* ABOUT */
 #about {
-  background-color: #d82c2e;
+  background-color: #00008B;
 }
 
 .profile-picture {
@@ -122,7 +122,7 @@ font-size: 18px;
 
 /* Skills  */
 #skills .heading h2 {
-  color: #d82c2e;
+  color: #00008B;
 }
 
 #skills .progress {
@@ -136,6 +136,18 @@ font-size: 18px;
 
 #skills .progress-bar {
   background-color: #d82c2e;
+}
+
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #00008B;
+    transition: width .6s ease;
 }
 
 #skills .progress-bar h5 {
@@ -183,7 +195,7 @@ font-size: 18px;
 }
 
 .timeline li .timeline-badge {
-  color: #d82c2e;
+  color: #000000;
   width: 50px;
   line-height: 50px;
   font-size: 20px;
@@ -242,6 +254,10 @@ font-size: 18px;
   right: auto;
 }
 
+.timeline-heading h4 {
+    color: #00008B;
+}
+
 .timeline-heading h3 {
   margin-top: 5px;
   font-size: 20px;
@@ -280,7 +296,7 @@ font-size: 18px;
 }
 
 .educations-block h3 {
-  color: #d82c2e;
+  color: #000000;
   margin: 15px;
 }
 
@@ -291,7 +307,7 @@ font-size: 18px;
 
 /* PORTFOLIO */
 #portfolio {
-  background-color: #d82c2e;
+  background-color: #00008B;
 }
 
 #portfolio .heading h2 {
@@ -322,7 +338,7 @@ font-size: 18px;
 }
 
 #recommendations .heading h2{
-	color: #d82c2e;
+	color: #00008B;
 }
 
 #myCarousel .carousel-item {
@@ -330,7 +346,7 @@ font-size: 18px;
 }
 
 #myCarousel .carousel-item h3{
-	color: #d82c2e;
+	color: #00008B;
 	font-style: italic;
 }
 
@@ -352,7 +368,7 @@ footer {
 }
 
 footer span {
-	color: #d82c2e;
+	color: white;
 	font-size: 25px;
 	line-height: 35px;
 }
@@ -375,7 +391,13 @@ margin-bottom: -95px;
 }
 
 
-#contact .heading h2{
+#contact .heading h2{.progress {
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #A9A9A9;
+    border-radius: .25rem;
 color: white;
 }
 
@@ -442,7 +464,7 @@ margin-bottom: -75px;
 text-align: center;
 }*/
 
-.cta-text{
+.cta-text {
   padding-left:15px;
   display:inline-block;
 }
