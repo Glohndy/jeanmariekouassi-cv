@@ -61,6 +61,10 @@ ul {
   margin-left: 2em;
 }
 
+a.button1 {
+  margin-left: 2em;
+}
+
 .button1:hover {
   background-color: white;
   color: #d82c2e;
