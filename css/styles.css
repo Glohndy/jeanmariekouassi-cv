@@ -136,12 +136,22 @@ font-size: 18px;
   background-color: darkgray;
 }
 
+#skills .reseau {
+  height: 45px;
+  margin: 30px 20px;
+  background-color: darkgray;
+}
+
 #skills .progress:last-child {
   margin-bottom: 0;
 }
 
 #skills .progress-bar {
-  background-color: #d82c2e;
+  background-color: #00008B;
+}
+
+#skills .reseau-bar {
+  background-color: #00008B;
 }
 
 .progress-bar {
