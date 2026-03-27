@@ -125,13 +125,14 @@ font-size: 18px;
   display: block;
   width: 0;
   height: 4px;
-  background-color: #1E90FF;
+  background-color: white;
   margin: 10px auto 0;
   transition: 0.4s;
+  margin-bottom: 40px;
 }
 
 #about .heading h3:hover::after {
-  width: 80px;
+  width: 200px;
 }
 
 /*#about .heading h3{
