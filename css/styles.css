@@ -114,10 +114,25 @@ font-size: 18px;
   margin: 0 auto 30px;
 }
 
-#about .heading h1 {
+/*#about .heading h1 {
   color: white;
   text-transform: uppercase;
   margin-bottom: 20px;
+}*/
+
+#about .heading h1::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 4px;
+  background-color: white;
+  margin: 10px auto 0;
+  transition: 0.4s;
+  margin-bottom: 30px;
+}
+
+#about .heading h1:hover::after {
+  width: 80px;
 }
 
 #about .heading h3::after {
@@ -132,7 +147,7 @@ font-size: 18px;
 }
 
 #about .heading h3:hover::after {
-  width: 200px;
+  width: 100px;
 }
 
 /*#about .heading h3{

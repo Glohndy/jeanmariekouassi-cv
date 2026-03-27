@@ -68,7 +68,14 @@ margin-bottom: 50px;
   }
 }
 
-img.rounded-circle:hover {
+/*img.rounded-circle:hover {
   transform: scale(1.05);
   transition: 0.3s;
+}*/
+img.rounded-circle {
+  transition: transform 0.3s ease;
+}
+
+img.rounded-circle:hover {
+  transform: scale(1.05);
 }
