@@ -73,7 +73,7 @@ img.rounded-circle:hover {
   transition: 0.3s;
 }
 
-.progress {
+skills .progress {
   transform: scale(1.05);
   transition: 0.3s;
 }
