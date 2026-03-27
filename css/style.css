@@ -79,3 +79,13 @@ img.rounded-circle {
 img.rounded-circle:hover {
   transform: scale(1.05);
 }
+
+
+/* educations */
+.educations-block {
+  transition: transform 0.3s ease;
+}
+
+.educations-block:hover {
+  transform: scale(1.05);
+}
