@@ -120,12 +120,26 @@ font-size: 18px;
   margin-bottom: 20px;
 }
 
-#about .heading h3{
+#about .heading::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 4px;
+  background-color: #1E90FF;
+  margin: 10px auto 0;
+  transition: 0.4s;
+}
+
+#about .heading:hover::after {
+  width: 80px;
+}
+
+/*#about .heading h3{
   color: white;
   text-decoration: underline;
   text-align: center;
   margin-bottom: 75px;
-}
+}*/
 
 #about p{
   /*padding: 0 200px;*/
