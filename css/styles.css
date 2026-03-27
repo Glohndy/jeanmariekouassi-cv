@@ -145,7 +145,7 @@ font-size: 18px;
 }
 
 #about .heading h3:hover::after {
-  width: 100px;
+  width: 130px;
 }
 
 #about .heading h3{
