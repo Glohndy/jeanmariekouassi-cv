@@ -42,3 +42,33 @@ margin-bottom: 50px;
 		font-size: 14px;
 	}
 }
+
+/* 📱 Tablette */
+@media (max-width: 1024px) {
+  img.rounded-circle {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+/* 📱 Mobile */
+@media (max-width: 768px) {
+  img.rounded-circle {
+    width: 60%;
+    max-width: 220px;
+    height: auto;
+  }
+}
+
+/* 📱 Très petit écran */
+@media (max-width: 480px) {
+  img.rounded-circle {
+    width: 70%;
+    max-width: 200px;
+  }
+}
+
+img.rounded-circle:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
