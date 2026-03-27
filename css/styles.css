@@ -126,7 +126,7 @@ font-size: 18px;
   background-color: white;
   margin: 10px auto 0;
   transition: 0.4s;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 #about .heading h1:hover::after {
