@@ -386,7 +386,7 @@ font-size: 18px;
 
 /* diplômes */
 
-#diplômes {
+section#diplômes {
   background-color: #00008B;
 }
 
@@ -401,11 +401,11 @@ font-size: 18px;
 
 
 #recommendations {
-  background-color: white;
+  background-color: #00008B;
 }
 
 #recommendations .heading h2{
-	color: #00008B;
+	color: white;
   text-align: center;
 }
 
