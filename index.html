@@ -391,13 +391,15 @@
 
   <div class="diplomes-container">
     
-    <img src="images/titrepro.png" alt="Diplôme 1" class="diplome-img">
-    <img src="images/licence.png" alt="Diplôme 2" class="diplome-img">
-    <img src="images/bts.png" alt="Diplôme 3" class="diplome-img">
+    <img src="images/titrepro.png" alt="Diplome Web" class="diplome-img">
+    
+    <img src="images/licence.png" alt="Licence" class="diplome-img">
+    
+    <img src="images/bts.png" alt="Bts web" class="diplome-img">
 
   </div>
 
-  <!-- Modal (image agrandie) -->
+  <!-- Modal -->
   <div id="modal" class="modal">
     <span class="close">&times;</span>
     <img class="modal-content" id="modal-img">
@@ -521,17 +523,17 @@
 
   images.forEach(img => {
     img.addEventListener("click", () => {
-      modal.style.display = "block";
+      modal.style.display = "flex";
       modalImg.src = img.src;
     });
   });
 
-  close.onclick = () => {
-    modal.style.display = "none";
-  };
+  close.onclick = () => modal.style.display = "none";
 
-  modal.onclick = () => {
-    modal.style.display = "none";
+  modal.onclick = (e) => {
+    if (e.target !== modalImg) {
+      modal.style.display = "none";
+    }
   };
 </script>
   
