@@ -11,12 +11,12 @@ h1, h2, h3, h4, h5, h6 {
 
 img {
   max-width: 30%;
-  height: auto;
-  /*border-radius: 10% !important;*/
 }
 
 img.rounded-circle {
     border-radius: 10% !important;
+    max-width: 30%;
+    height: auto;
 }
 
 section {
@@ -49,6 +49,7 @@ ul {
 .divider.white {
   background-color: white;
 }
+
 
 .button1 {
   font-weight: bold;
@@ -416,6 +417,10 @@ section#diplômes {
 #diplomes h2 {
   margin-bottom: 40px;
   font-family: 'Playfair Display', serif;
+}
+
+#diplomes .divider.white {
+  background-color: white;
 }
 
 /* Container */
