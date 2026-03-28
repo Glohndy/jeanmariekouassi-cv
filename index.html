@@ -29,7 +29,7 @@
         <a class="nav-link" href="#skills">Compétences</a>
         <a class="nav-link" href="#experience">Expériences</a>
         <a class="nav-link" href="#educations">Formations</a>
-		<a class="nav-link" href="#diplômes">Diplômes</a>
+		<a class="nav-link" href="#diplomes">Diplômes</a>
         <a class="nav-link" href="#portfolio">Portfolio</a>
         <a class="nav-link" href="#recommendations">Recommandations</a>
         <a class="nav-link" href="contact.html">Contact</a>
@@ -386,49 +386,23 @@
 
 
 
-  <section id="diplômes">
-    <div class="container">
-      <div class='divider white'></div>
+  <section id="diplomes">
+  <h2>Mes Diplômes</h2>
 
-      <div class="heading">
-        <h2>Diplômes</h2>
-      </div>
+  <div class="diplomes-container">
+    
+    <img src="images/titrepro.png" alt="Diplôme 1" class="diplome-img">
+    <img src="images/licence.png" alt="Diplôme 2" class="diplome-img">
+    <img src="images/bts.png" alt="Diplôme 3" class="diplome-img">
 
-      <div class='row'>
+  </div>
 
-		  <div class="col-xl-6 col-lg-12">
-				<img src='images/titrepro.png' class="img-thumbnail" alt="titre-pro">
-		  </div>
-
-		  <div class="col-xl-6 col-lg-12">
-				<img src='images/licence.png' class="img-thumbnail" alt="licence">
-		  </div>
-
-        <div class="col-xl-6 col-lg-12">
-          	<img src='images/bts.png' class="img-thumbnail" alt="000webhostapp">
-        </div> 
-
-        <div class="col-xl-6 col-lg-12">
-          	<img src='images/lampnet.png' class="img-thumbnail" alt="000webhostapp">
-        </div>
-
-      </div>
-
-      <div class='row'>  
-
-        <div class="col-xl-6 col-lg-12">
-          	<img src='images/pancake.png' class="img-thumbnail" alt="000webhostapp">
-        </div>
-
-        <div class="col-xl-6 col-lg-12">
-          	<img src='images/voyage.png' class="img-thumbnail" alt="000webhostapp">
-        </div>
-
-      </div>
-
-
-    </div>
-    </section>
+  <!-- Modal (image agrandie) -->
+  <div id="modal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modal-img">
+  </div>
+</section>
 
 
 
@@ -539,6 +513,27 @@
 
   </footer>
 
+  <script>
+  const images = document.querySelectorAll(".diplome-img");
+  const modal = document.getElementById("modal");
+  const modalImg = document.getElementById("modal-img");
+  const close = document.querySelector(".close");
+
+  images.forEach(img => {
+    img.addEventListener("click", () => {
+      modal.style.display = "block";
+      modalImg.src = img.src;
+    });
+  });
+
+  close.onclick = () => {
+    modal.style.display = "none";
+  };
+
+  modal.onclick = () => {
+    modal.style.display = "none";
+  };
+</script>
   
 
 </body>

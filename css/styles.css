@@ -385,7 +385,7 @@ font-size: 18px;
 }
 
 /* diplômes */
-
+/*
 section#diplômes {
   background-color: #00008B;
 }
@@ -405,6 +405,72 @@ section#diplômes {
 #diplôme img:hover {
   filter: none;
   -webkit-filter: none;
+}*/
+
+/* Section */
+#diplomes {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* Container */
+.diplomes-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Images */
+.diplome-img {
+  width: 250px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.diplome-img:hover {
+  transform: scale(1.05);
+}
+
+/* 📱 Responsive */
+@media (max-width: 768px) {
+  .diplome-img {
+    width: 80%;
+    max-width: 300px;
+  }
+}
+
+/* Modal (fond noir) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  padding-top: 60px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.9);
+}
+
+/* Image agrandie */
+.modal-content {
+  display: block;
+  margin: auto;
+  max-width: 90%;
+  max-height: 80%;
+  border-radius: 10px;
+}
+
+/* Bouton fermer */
+.close {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
 }
 
 
