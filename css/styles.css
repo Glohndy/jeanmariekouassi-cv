@@ -9,9 +9,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Playfair Display', serif;
 }
 
-img {
-  max-width: 30%;
-}
 
 img.rounded-circle {
     border-radius: 10% !important;
@@ -415,8 +412,11 @@ section#diplômes {
 }
 
 #diplomes h2 {
-  margin-bottom: 40px;
+  margin-bottom: 0px;
   font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  text-decoration: overline;
+  color: white;
 }
 
 
@@ -427,6 +427,8 @@ section#diplômes {
   gap: 40px;
   flex-wrap: wrap;
   background-color: darkblue;
+  padding-top: 60px;
+  padding-bottom: 35px;
 }
 
 /* Carte diplôme */
@@ -454,16 +456,17 @@ section#diplômes {
   margin-top: 15px;
   font-size: 18px;
   font-family: 'Playfair Display', serif;
+  color: white;
 }
 
 .diplome-item p {
   margin: 5px 0;
-  color: gray;
+  color: white;
 }
 
 .diplome-item span {
   font-size: 14px;
-  color: #555;
+  color: white;
 }
 
 /* 📱 Tablette */
@@ -514,7 +517,7 @@ section#diplômes {
 /* Bouton fermer */
 .close {
   position: absolute;
-  top: 20px;
+  top: 45px;
   right: 40px;
   color: white;
   font-size: 40px;
@@ -534,12 +537,16 @@ section#diplômes {
   text-align: center;
 }
 
+#recommendations .carousel-item h4 {
+  color: white;
+}
+
 #myCarousel .carousel-item {
 	padding: 30px 30px 90px;
 }
 
 #myCarousel .carousel-item h3{
-	color: #00008B;
+	color: white;
 	font-style: italic;
 }
 
@@ -547,6 +554,10 @@ section#diplômes {
 #recommendations {
   margin-bottom: -80px;
   margin-top: 65px;
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: white;
 }
 
 
