@@ -410,24 +410,34 @@ section#diplômes {
 /* Section */
 #diplomes {
   text-align: center;
-  padding: 50px 20px;
+  padding: 60px 20px;
 }
 
 #diplomes h2 {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+  font-family: 'Playfair Display', serif;
 }
 
 /* Container */
 .diplomes-container {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 40px;
   flex-wrap: wrap;
+  background-color: darkblue;
 }
 
-/* Images miniatures */
+/* Carte diplôme */
+.diplome-item {
+  max-width: 600px;
+  text-align: center;
+}
+
+/* Image */
 .diplome-img {
-  width: 300px;
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
   border-radius: 10px;
   cursor: pointer;
   transition: transform 0.3s;
@@ -437,15 +447,45 @@ section#diplômes {
   transform: scale(1.05);
 }
 
-/* Responsive */
-@media (max-width: 768px) {
+/* Texte */
+.diplome-item h3 {
+  margin-top: 15px;
+  font-size: 18px;
+  font-family: 'Playfair Display', serif;
+}
+
+.diplome-item p {
+  margin: 5px 0;
+  color: gray;
+}
+
+.diplome-item span {
+  font-size: 14px;
+  color: #555;
+}
+
+/* 📱 Tablette */
+@media (max-width: 1024px) {
   .diplome-img {
     width: 90%;
-    max-width: 350px;
+    height: auto;
   }
 }
 
-/* Modal (fond noir) */
+/* 📱 Mobile */
+@media (max-width: 768px) {
+  .diplome-item {
+    width: 100%;
+  }
+
+  .diplome-img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+}
+
+/* Modal */
 .modal {
   display: none; /* important */
   position: fixed;

@@ -387,24 +387,61 @@
 
 
   <section id="diplomes">
+  <div class="divider white"></div>
   <h2>Mes Diplômes</h2>
 
   <div class="diplomes-container">
-    
-    <img src="images/titrepro.png" alt="Diplome Web" class="diplome-img">
-    
-    <img src="images/licence.png" alt="Licence" class="diplome-img">
-    
-    <img src="images/bts.png" alt="Bts web" class="diplome-img">
 
-  </div>
+	<div class="diplome-item">
+      <img src="images/CCNA1.png" alt="CCNA" class="diplome-img">
+      <h3>Cisco CCNA</h3>
+      <p>18 MARS</p>
+      <span>ORT Toulouse</span>
+    </div>
 
-  <!-- Modal -->
-  <div id="modal" class="modal">
-    <span class="close">&times;</span>
-    <img class="modal-content" id="modal-img">
+	<div class="diplome-item">
+      <img src="images/CCNA.png" alt="CCNA" class="diplome-img">
+      <h3>Cisco CCNA</h3>
+      <p>18 MARS</p>
+      <span>ORT Toulouse</span>
+    </div>
+
+	<div class="diplome-item">
+      <img src="images/qrcode.png" alt="CCNA" class="diplome-img">
+      <h3>Certification CCNA vérifiable via QR code</h3>
+      <p>18 MARS</p>
+      <span>ORT Toulouse</span>
+    </div>
+
+    <div class="diplome-item">
+      <img src="images/titrepro.png" alt="Titre pro web" class="diplome-img">
+      <h3>Titre Professionnel en Développement Web & Web Mobile option Cyber Sécurité</h3>
+      <p>Juillet 2023 - Juin 2024</p>
+      <span>ORT Toulouse / 3iL Ingénieur</span>
+	</div>
+
+    <div class="diplome-item">
+      <img src="images/licence.png" alt="Licence Professionnelle en Informatique Développement Application" class="diplome-img">
+      <h3>Licence Professionnelle en Informatique DéveloppementApplication</h3>
+      <p>: Octobre 2014 - Novembre 2017</p>
+      <span>Graduate School of Management(GSM)</span>
+    </div>
+
+    <div class="diplome-item">
+      <img src="images/bts.png" alt="Développement Web" class="diplome-img">
+      <h3>Brevet Technicien Supérieur (CANDIDAT LIBRE) en Informatique Développement Application</h3>
+      <p>Septembre 2017</p>
+      <span>Graduate School of Management(GSM)</span>
+    </div>
+
   </div>
 </section>
+
+<!-- Modal -->
+<div id="modal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="modal-img">
+</div>
 
 
 
@@ -521,6 +558,7 @@
   const modalImg = document.getElementById("modal-img");
   const close = document.querySelector(".close");
 
+  // Ouvrir image
   images.forEach(img => {
     img.addEventListener("click", () => {
       modal.style.display = "flex";
@@ -528,13 +566,17 @@
     });
   });
 
-  close.onclick = () => modal.style.display = "none";
+  // Fermer bouton
+  close.addEventListener("click", () => {
+    modal.style.display = "none";
+  });
 
-  modal.onclick = (e) => {
+  // Fermer en cliquant dehors
+  modal.addEventListener("click", (e) => {
     if (e.target !== modalImg) {
       modal.style.display = "none";
     }
-  };
+  });
 </script>
   
 
