@@ -364,11 +364,11 @@ font-size: 18px;
 
 /* PORTFOLIO */
 #portfolio {
-  background-color: #00008B;
+  background-color: white;
 }
 
 #portfolio .heading h2 {
-  color: white;
+  color: #00008B;
   text-align: center;
 }
 
@@ -384,7 +384,16 @@ font-size: 18px;
   -webkit-filter: none;
 }
 
+/* diplômes */
 
+#diplômes {
+  background-color: #00008B;
+}
+
+#diplômes .heading h2 {
+  color: white;
+  text-align: center;
+}
 
 
 
