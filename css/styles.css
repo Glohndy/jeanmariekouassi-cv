@@ -465,8 +465,6 @@ section#diplômes {
 .modal-content {
   width: auto;
   height: auto;
-  max-width: 90%;
-  max-height: 90vh;
   border-radius: 10px;
 }
 
