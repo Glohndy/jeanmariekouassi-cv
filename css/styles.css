@@ -315,6 +315,7 @@ font-size: 18px;
 .timeline-heading h3 {
   margin-top: 5px;
   font-size: 20px;
+  text-transform: uppercase;
 }
 
 .timeline-heading h4 {
@@ -417,6 +418,7 @@ section#diplômes {
   text-transform: uppercase;
   text-decoration: overline;
   color: white;
+  padding-top: 78px;
 }
 
 
