@@ -542,6 +542,10 @@ section#diplômes {
   background-color: #00008B;
 }
 
+#recommendations .carousel-control-prev-icon .carousel-control-next-icon {
+  color: white;
+}
+
 #recommendations .heading h2{
 	color: white;
   text-align: center;
