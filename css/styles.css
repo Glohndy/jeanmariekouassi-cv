@@ -483,7 +483,7 @@ section#diplômes {
 /* 📱 Mobile */
 @media (max-width: 768px) {
   .diplome-item {
-    width: 100%;
+    width: 50%;
   }
 
   .diplome-img {
